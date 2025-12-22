@@ -1,0 +1,45 @@
+# Anthropic
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,claude.ai
+# OpenAI и ChatGPT
+DOMAIN-SUFFIX,ai.com
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,sora.com
+DOMAIN,openai.fund
+DOMAIN,openai.org
+# Google AI / Gemini / DeepMind
+DOMAIN-SUFFIX,deepmind.com
+DOMAIN-SUFFIX,deepmind.google
+DOMAIN-SUFFIX,generativelanguage.googleapis.com
+DOMAIN-SUFFIX,generativeai.google
+DOMAIN-SUFFIX,makersuite.google.com
+DOMAIN-SUFFIX,gemini.google.com
+DOMAIN-SUFFIX,notebooklm.google.com
+DOMAIN-SUFFIX,jules.google.com
+DOMAIN-SUFFIX,labs.google
+DOMAIN-SUFFIX,geller-pa.googleapis.com
+DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
+# Microsoft Copilot
+DOMAIN-SUFFIX,copilot.microsoft.com
+# Apple Relay
+# DOMAIN-SUFFIX,apple-relay.apple.com
+# Прочие AI-сервисы
+DOMAIN-SUFFIX,deepl.com
+DOMAIN-SUFFIX,elevenlabs.io
+DOMAIN-SUFFIX,grok.com
+DOMAIN-SUFFIX,manus.im
+DOMAIN-SUFFIX,x.ai
+DOMAIN-SUFFIX,kaleido.ai
+DOMAIN-SUFFIX,recraft.ai
+DOMAIN-SUFFIX,trae.ai
+DOMAIN-SUFFIX,codeium.com
+DOMAIN-SUFFIX,composer.opera-api.com
+DOMAIN-SUFFIX,searchgpt.com
+DOMAIN-SUFFIX,openrouter.ai
+# Специфичные поддомены
+DOMAIN,ab.chatgpt.com
+DOMAIN,webrtc.chatgpt.com
+DOMAIN,ios.chat.openai.com
+DOMAIN,chat.openai.com.cdn.cloudflare.net
+DOMAIN,openai-api.arkoselabs.com
