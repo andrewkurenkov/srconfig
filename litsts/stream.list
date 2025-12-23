@@ -242,9 +242,9 @@ DOMAIN-SUFFIX,git.new
 DOMAIN-SUFFIX,urlr.me
 DOMAIN-SUFFIX,atv4.dnskp.cc
 DOMAIN-SUFFIX,flexcdn.cloud
-DOMAIN-SUFFIX,m.pushbr.com
-DOMAIN-SUFFIX,api.teleos.club
-DOMAIN-SUFFIX,api.themoviedb.org
+DOMAIN-SUFFIX,pushbr.com
+DOMAIN-SUFFIX,teleos.club
+DOMAIN-SUFFIX,themoviedb.org
 #END_KP
 DOMAIN-SUFFIX,kinogo.ec
 DOMAIN-SUFFIX,kinogo.uk
