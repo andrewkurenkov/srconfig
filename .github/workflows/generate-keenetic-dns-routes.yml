@@ -1,0 +1,32 @@
+name: Generate Keenetic DNS Routes
+
+on:
+  push:
+    paths:
+      - "litsts/**/*.list"
+      - "scripts/generate_keenetic_dns_routes.py"
+      - ".github/workflows/generate-keenetic-dns-routes.yml"
+  workflow_dispatch:
+
+jobs:
+  generate:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - name: Generate domain lists
+        run: |
+          python scripts/generate_keenetic_dns_routes.py \
+            --input-dir litsts \
+            --output-file generated/keenetic_dns_routes.txt \
+            --unsupported-file generated/keenetic_dns_routes_unsupported.txt
+      - name: Commit updated lists
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: regenerate Keenetic DNS routes"
+          file_pattern: "generated/keenetic_dns_routes.txt generated/keenetic_dns_routes_unsupported.txt"
