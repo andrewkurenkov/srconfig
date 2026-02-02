@@ -89,6 +89,25 @@ def write_list(path, items):
     path.write_text(content, encoding="utf-8")
 
 
+def write_chunked_list(path, items, max_lines):
+    if path is None:
+        return
+    if max_lines <= 0:
+        write_list(path, items)
+        return
+    path.parent.mkdir(parents=True, exist_ok=True)
+    if len(items) <= max_lines:
+        write_list(path, items)
+        return
+    stem = path.stem
+    suffix = path.suffix or ".txt"
+    for idx in range(0, len(items), max_lines):
+        chunk = items[idx : idx + max_lines]
+        part_num = idx // max_lines + 1
+        chunk_path = path.with_name(f"{stem}_{part_num:03d}{suffix}")
+        write_list(chunk_path, chunk)
+
+
 def main():
     parser = argparse.ArgumentParser(
         description="Generate a Keenetic DNS-Based Routes domain list from *.list files."
@@ -117,6 +136,12 @@ def main():
         "--keyword-tlds",
         default=",".join(DEFAULT_KEYWORD_TLDS),
         help="Comma-separated TLDs for DOMAIN-KEYWORD expansion",
+    )
+    parser.add_argument(
+        "--max-lines",
+        type=int,
+        default=300,
+        help="Max lines per output file (default: 300). Use 0 to disable splitting.",
     )
     args = parser.parse_args()
 
@@ -158,7 +183,7 @@ def main():
                     unsupported_seen.add(normalized)
                     unsupported.append(normalized)
 
-    write_list(Path(args.output_file), domains)
+    write_chunked_list(Path(args.output_file), domains, args.max_lines)
     unsupported_path = Path(args.unsupported_file) if args.unsupported_file else None
     write_list(unsupported_path, unsupported)
 
