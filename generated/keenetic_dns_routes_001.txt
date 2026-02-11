@@ -212,6 +212,7 @@ files.oaiusercontent.com
 imgix.net
 blob.core.windows.net
 static.cloudflareinsights.com
+jaspersoft.com
 flibusta.is
 flibusta.net
 rutracker.cc
@@ -297,4 +298,3 @@ nnm-club.ru
 nnm-club.de
 nnm-club.nl
 nnm-club.uk
-nnm-club.co
