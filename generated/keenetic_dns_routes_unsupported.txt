@@ -1,3 +1,10 @@
+ip-cidr,3.120.63.228/32
+ip-cidr,18.198.108.65/32
+ip-cidr,3.125.230.2/32
+ip-cidr,18.185.28.63/32
+ip-cidr,18.192.139.211/32
+ip-cidr,18.194.52.28/32
+ip-cidr,20.33.66.163/32
 dst-port,3478,proxy
 dst-port,3480,proxy
 dst-port,3484,proxy
