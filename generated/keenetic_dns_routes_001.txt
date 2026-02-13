@@ -74,6 +74,7 @@ nuxt.com
 directus.io
 cloudslinker.com
 amazonaws.com
+home-connect.com
 api.jetbrains.ai
 jetbrains.com
 jetbrains.space
@@ -297,4 +298,3 @@ nnm-club.net
 nnm-club.org
 nnm-club.ru
 nnm-club.de
-nnm-club.nl
