@@ -6,6 +6,10 @@ chatgpt.com
 sora.com
 openai.fund
 openai.org
+auth0.com
+gpt3-openai.com
+oaistatic.com
+oaiusercontent.com
 deepmind.com
 deepmind.google
 generativelanguage.googleapis.com
@@ -30,6 +34,7 @@ codeium.com
 composer.opera-api.com
 searchgpt.com
 openrouter.ai
+monica.im
 ab.chatgpt.com
 webrtc.chatgpt.com
 ios.chat.openai.com
@@ -209,7 +214,6 @@ cdnbunny.org
 coinsbee.com
 coinpayments.net
 cdn.oaistatic.com
-oaistatic.com
 files.oaiusercontent.com
 imgix.net
 blob.core.windows.net
@@ -294,7 +298,3 @@ lostfilm.download
 lostfilm.tv
 lostfilmtv2.site
 nnm-club.com
-nnm-club.net
-nnm-club.org
-nnm-club.ru
-nnm-club.de

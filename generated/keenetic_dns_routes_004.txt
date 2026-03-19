@@ -1,3 +1,9 @@
+youtubegaming.com
+youtubego.co.id
+youtubego.co.in
+youtubego.com
+youtubego.com.br
+youtubego.id
 youtubego.in
 youtubei.googleapis.com
 youtubekids.com
@@ -222,3 +228,11 @@ pca.st
 podbean.com
 pcdn.co
 analytics.pocketcasts.com
+eu.org
+nnmstatic.win
+rustorka.com
+rutrk.org
+stealth.si
+t-ru.org
+wstracker.online
+ysagin.top
