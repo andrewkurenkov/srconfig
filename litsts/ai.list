@@ -8,6 +8,13 @@ DOMAIN-SUFFIX,chatgpt.com
 DOMAIN-SUFFIX,sora.com
 DOMAIN,openai.fund
 DOMAIN,openai.org
+DOMAIN-SUFFIX,auth0.com
+DOMAIN-SUFFIX,gpt3-openai.com
+DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,oaiusercontent.com
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,openai.fund
+DOMAIN-SUFFIX,openai.org
 # Google AI / Gemini / DeepMind
 DOMAIN-SUFFIX,deepmind.com
 DOMAIN-SUFFIX,deepmind.google
@@ -37,6 +44,7 @@ DOMAIN-SUFFIX,codeium.com
 DOMAIN-SUFFIX,composer.opera-api.com
 DOMAIN-SUFFIX,searchgpt.com
 DOMAIN-SUFFIX,openrouter.ai
+DOMAIN-SUFFIX,monica.im
 # Специфичные поддомены
 DOMAIN,ab.chatgpt.com
 DOMAIN,webrtc.chatgpt.com
